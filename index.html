@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bfc2ca955.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="menu-logo logo">
+            <a href="#">
+                <span>
+                    <</span>
+                        <span>/</span>
+                        Romim Carvalho
+                        <span>></span>
+            </a>
+        </div>
+
+        <nav class="menu-nav">
+            <ul class="sessoes js-menu">
+                <li><a href="#sobre" class="li">Sobre</a></li>
+                <li><a href="#skills" class="li">Skills</a></li>
+                <li><a href="#lab" class="li">Laboratório</a></li>
+                <li><a href="#contato" class="li">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <div class="principal-info">
+            <span>Desenvolvedor Frontend</span>
+            <h1>Romim Carvalho</h1>
+            <p>Sempre em busca de novos aprendizados, amante de tecnologias, Programador</p>
+
+            <a href="http://github.com/romulosous" class="button">Baixar currículo</a>
+        </div>
+
+        <div class="principal-img">
+            <img src="img/SVG PROGRAMADOR 01.svg" alt="Programing Img">
+        </div>
+    </main>
+
+    <section class="sobre js-scroll" id="sobre">
+        <h1 class="subtitulo"><span class="simbol"></span>Sobre</h1>
+        <div class="sobre-container">
+            <div class="profile">
+                <img src="img/profile.jpg" alt="Foto Perfil">
+                <span>Romim Carvalho</span>
+                <ul class="redes-sociais">
+                    <li>
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fab fa-twitter icones"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://github.com/romulosous">
+                            <i class="fab fa-github icones"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/romulosous/">
+                            <i class="fab fa-linkedin icones"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="descricao">
+                <h2>Conheça um pouco sobre mim</h2>
+                <p>Me chamo Romulo, tive contato com programação em curso de TI, antes disso não sabia o que queria ser
+                    da vida (rsrsrs), mas depois que conheci a programação, e vi a forma como solucionamos problemas da
+                    vida real por meio de algoritmos, descobrir minha vocação. Não apenas como algo que eu ia usar para
+                    minha vida profissional, mas também um hobby que me ajudou a ter uma visão mais ampla sobre tudo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills js-scroll" id="skills">
+        <h1 class="subtitulo"><span class="simbol"></span> Skills</h1>
+        <ul class="logo-skills">
+            <li><img src="img/icones/HTML.svg" alt="Html"></li>
+            <li><img src="img/icones/CSS.svg" alt="Css"></li>
+            <li><img src="img/icones/VUE.svg" alt="Vue"></li>
+            <li><img src="img/icones/POSTGRES.svg" alt="Postgresql"></li>
+            <li><img src="img/icones/JAVASCRIPT.svg" alt="Javascript"></li>
+        </ul>
+    </section>
+
+
+    <section class="lab js-scroll" id="lab">
+        <h1 class="subtitulo"><span class="simbol"></span>Laboratório</h1>
+        <div class="cards">
+            <div class="card" id="flexblog">
+                <div class="card-img">
+                    <img src="/img/flexblog.png" alt="">
+                </div>
+
+                <div class="card-info">
+                    <h3>Flexblog</h3>
+                    <p>Pequeno projeto feito com intuito de melhorar minhas abilidades utilizando flexbox.</p>
+                </div>
+
+                <div class="card-button">
+                    <a href="https://romulosous.github.io/flexblog/" target="_blank" class="button">Acessar</a>
+                </div>
+            </div>
+
+            <div class="card" id="flexblog">
+                <div class="card-img">
+                    <img src="/img/wildbeast.jpg" alt="">
+                </div>
+
+                <div class="card-info">
+                    <h3>Wildbeast</h3>
+                    <p>Pequeno projeto feito com o intuito de melhorar minhas abilidades utilizando grid layout.</p>
+                </div>
+
+                <div class="card-button">
+                    <a href="#" class="button">Acessar</a>
+                </div>
+            </div>
+
+            <div class="card" id="bikcraft">
+                <div class="card-img">
+                    <img src="/img/bikcraft.png" alt="">
+                </div>
+
+                <div class="card-info">
+                    <h3>Bikcraft</h3>
+                    <p>Um Website que têm como intuito fabricar as mais diversas bicicletas personalizas.</p>
+                </div>
+
+                <div class="card-button">
+                    <a href="#" class="button">Acessar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="max-modal">
+                <i class="material-icons">maximize</i>
+            </a>
+
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="contato js-scroll" id="contato">
+        <h1 class="subtitulo"><span class="simbol"></span>Contato</h1>
+        <p>Fique a vontade para entrar em contato comigo, será um prazer atende-lo. Estou disponível todos os dias.</p>
+
+        <div class="redes-sociais redes-contato">
+            <div class="social">
+                <span><i class="fas fa-mobile-alt icones"></i><a href="tel:+89988185183"> (89) 98818-5183</a> </span>
+
+                <span><i class="far fa-envelope icones"></i> <a href="mailto:romulocarvalho081@gmail.com">
+                    romulocarvalho081@gmail.com</a></span>
+
+            </div>
+
+            <div class="social">
+                <span><i class="fab fa-github icones"></i><a href="http://github.com/romulosous">
+                        github.com/romulosous</a></span>
+
+                <span><i class="fab fa-linkedin icones"></i><a href="http://www.linkedin.com/romulosous">
+                        linkedin.com/romulosous</a></span>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2020 Romim Carvalho</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
