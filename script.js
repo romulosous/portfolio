@@ -70,19 +70,19 @@ function modal () {
 
 modal()
 
-// function keyboard () {
-//   const modalOverlay = document.querySelector('.modal-overlay')
-//   const modal = document.querySelector('.modal')
+ function keyboard () {
+  const modalOverlay = document.querySelector('.modal-overlay')
+   const modal = document.querySelector('.modal')
 
-//   function clickX (event) {
-//     if (event.key === 'x') {
-//       modal.classList.toggle('maximizar')
-//       modalOverlay.classList.toggle('active')
-//       modalOverlay.querySelector('iframe').src = ''
-//     }
-//   }
+   function clickX (event) {
+    if (event.key === 'x') {
+      modal.classList.toggle('maximizar')
+      modalOverlay.classList.toggle('active')
+      modalOverlay.querySelector('iframe').src = ''
+     }
+ }
 
-//   window.addEventListener('keydown', clickX)
-// }
+   window.addEventListener('keydown', clickX)
+}
 
-// keyboard()
+keyboard()
